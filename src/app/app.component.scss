@@ -1,0 +1,56 @@
+.main-container {
+    padding-left: 20px;
+    height: 220px;
+    width: 400px;
+    background-color: rgb(190, 173, 173);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: monospace;
+
+    .bad-words {
+        color: rgb(231, 57, 57);
+    }
+
+    .input-1 {
+        height: 40px;
+        width: 200px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .btn-add, .btn-reset {
+        height: 40px;
+        background-color: rgb(235, 235, 83);
+        width: 75px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        color: black;
+    }
+
+    .big-input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 380px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .btn-reset {
+        background-color: rgb(233, 51, 51);
+        color: white;
+    }
+
+    .big-button {
+        width: 380px;
+        height: 40px;
+        color: white;
+        background-color: rgb(23, 241, 23);
+        border-radius: 5px;
+        border: none;
+    }
+}
